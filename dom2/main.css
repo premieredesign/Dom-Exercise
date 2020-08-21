@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 4px;
+  margin: auto;
+
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid black;
+  border-radius: 4px;
+  margin: auto;
+  width: 30%;
+  padding: 50px;
+}
+
+.boldify {
+  font-weight: bold;
+}
+
+.input-container,
+.input-type-container {
+  margin-bottom: 20px;
+}
+
+.myButton {
+  width: 50px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 30%;
+  justify-content: space-between;
+}
